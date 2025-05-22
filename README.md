@@ -1,12 +1,38 @@
-# React + Vite
+#  React Game – Built with Hooks, Motion, and Fun!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and animated browser game built using **React**, **Framer Motion**, **React Icons**, and **Bootstrap**. It’s simple in logic, smooth in performance, and made to run beautifully on any screen.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  About the Project
 
-## Expanding the ESLint configuration
+This project is a personal experiment in building a game using **React Hooks** and modern libraries. I kept the logic clean and simple while adding motion and design polish to make it feel alive. It’s built with:
+- **Functional components**
+- **Reusable hooks**
+- **Smooth animations**
+- **Responsive Bootstrap layout**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Whether you’re on desktop or mobile, it just works.
+
+---
+
+##  Live Demo
+
+👉 [Play the Game](https://yourusername.github.io/react-game)
+
+*(Opens in browser – no installation needed)*
+
+---
+
+##  Tech Stack
+
+- ⚛️ **React** (with Hooks)
+- 🎞️ **Framer Motion** (for animations)
+- 🧩 **React Icons**
+- 🎨 **Bootstrap 5** (for styling and responsiveness)
+- 🧠 **JavaScript** (for game logic)
+
+
+
+
+
