@@ -34,9 +34,9 @@ Whether you’re on desktop or mobile, it just works.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
-Made with ❤️ by **Prabath**  
+Crafted by **Prabath**  
 GitHub: [@prabath]([https://github.com/prabath](https://github.com/Prabathunni))
 
 ---
