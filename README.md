@@ -34,6 +34,13 @@ Whether you’re on desktop or mobile, it just works.
 
 ---
 
+## 👨‍💻 Author
+
+Made with ❤️ by **Prabath**  
+GitHub: [@prabath]([https://github.com/prabath](https://github.com/Prabathunni))
+
+---
+
 ##  Tags
 
 `react-game` `framer-motion` `react-hooks` `javascript-game` `responsive-design` `bootstrap5` `browser-game`
