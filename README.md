@@ -37,7 +37,7 @@ Whether you’re on desktop or mobile, it just works.
 ##  Author
 
 Crafted by **Prabath**  
-GitHub: [@prabath](https://rps-arena-one.vercel.app/)
+GitHub: [@prabath](https://github.com/Prabathunni)
 
 ---
 
