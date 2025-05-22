@@ -18,7 +18,7 @@ Whether you’re on desktop or mobile, it just works.
 
 ##  Live Demo
 
-👉 [Play the Game](https://yourusername.github.io/react-game)
+👉 [Play the Game]([https://yourusername.github.io/react-game](https://rps-arena-one.vercel.app/))
 
 *(Opens in browser – no installation needed)*
 
