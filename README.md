@@ -32,6 +32,14 @@ Whether you’re on desktop or mobile, it just works.
 - 🎨 **Bootstrap 5** (for styling and responsiveness)
 - 🧠 **JavaScript** (for game logic)
 
+---
+
+##  Tags
+
+`react-game` `framer-motion` `react-hooks` `javascript-game` `responsive-design` `bootstrap5` `browser-game`
+
+
+
 
 
 
