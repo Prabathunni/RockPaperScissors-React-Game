@@ -20,8 +20,6 @@ Whether you’re on desktop or mobile, it just works.
 
 👉 [Play the Game](https://rps-arena-one.vercel.app/)
 
-*(Opens in browser – no installation needed)*
-
 ---
 
 ##  Tech Stack
