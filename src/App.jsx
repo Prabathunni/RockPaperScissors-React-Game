@@ -29,7 +29,7 @@ function App() {
   const [scoreLimit, setScoreLimit] = useState(3)
   const [scoreBoard, setScoreBoard] = useState('')
   const [isGameOver, setIsGameOver] = useState(false)
-  const [welcomeMessage,setWelcomeMessage] =useState('')
+  const [welcomeMessage, setWelcomeMessage] = useState('')
 
 
   const getCpuChoice = () => {
@@ -50,9 +50,6 @@ function App() {
     }, 1000);
 
     
-
-
-
   }, [])
 
 
@@ -137,19 +134,31 @@ function App() {
         {/* score board section */}
         <div className="row mt-5">
           <div className="col-12 col-md-5">
-            <h5 className='text-center '><span className='bg-success rounded px-3'>Your Score:{playerScore} </span></h5>
+            <h5 className='text-center '><span className='bg-secondary rounded px-3'>Your Score:{playerScore} </span></h5>
           </div>
           <div className="col-2 d-none d-md-block">
             <h3 className='text-center'>{result || scoreBoard}</h3>
           </div>
           <div className="col-12 col-md-5">
-            <h5 className='text-center'><span className='bg-secondary rounded px-3'>CPU Score:{cpuScore}</span></h5>
+            <h5 className='text-center'><span className='bg-info rounded px-3'>CPU Score:{cpuScore}</span></h5>
           </div>
         </div>
 
         <div className='d-block d-md-none mt-3'>
           <h3 className='text-center'>{result || scoreBoard}</h3>
         </div>
+
+
+        <div>
+
+          {welcomeMessage &&
+            <>
+              <p className='text-center mt-4'> &#8592;  Player side  <span className='ms-5'>Computer side  &#8594;</span></p>
+            </>
+          }
+
+        </div>
+
 
 
         {/* display section */}
@@ -161,7 +170,7 @@ function App() {
               animate={shake ? 'animate' : ''}
               onClick={handleClick}
               style={{ fontSize: '80px' }}
-              className="text-danger"
+              
             >
               {playerchoice && handIcons[playerchoice]}
             </motion.div>
@@ -173,13 +182,13 @@ function App() {
             <h4 className='text-center'>{welcomeMessage}</h4>
           </div>
 
-          <div className="col-5 d-flex justify-content-start">
+          <div className="col-5  d-flex justify-content-start">
 
             <motion.div
               variants={shakeAnim}
               animate={shake ? 'animate' : ''}
               style={{ fontSize: '80px', cursor: 'pointer' }}
-              className="text-danger"
+              className="text-info"
             >
               {cpuChoice && handIcons[cpuChoice]}
             </motion.div>
@@ -204,7 +213,8 @@ function App() {
             </>
           ) : (
             <>
-              <h5>Lock your choice</h5>
+              <h5>click your choice to play </h5>
+              <h5>&#x2193;</h5>
               <div className='mt-5'>
                 <button className='btn' onClick={() => handleClick('rock')}><FaHandRock size={45} /></button>
                 <button className='btn' onClick={() => handleClick('paper')}><FaHandPaper size={45} /></button>
@@ -226,9 +236,9 @@ function App() {
 
 
       </div>
-    
-    <Footer/>
-      
+
+      <Footer />
+
     </>
   )
 }
