@@ -25,7 +25,7 @@ Whether you’re on desktop or mobile, it just works.
 ## Screenshot
 Here’s a quick look at the gameplay:
 
-![Game Screenshot](./assets/screenshot.png)
+![Game Screenshot](./src/assets/screenshot.png)
 
 ---
 
