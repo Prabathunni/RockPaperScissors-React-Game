@@ -22,6 +22,13 @@ Whether you’re on desktop or mobile, it just works.
 
 ---
 
+## Screenshot
+Here’s a quick look at the gameplay:
+
+![Game Screenshot]()
+
+---
+
 ##  Tech Stack
 
 - ⚛️ **React** (with Hooks)
